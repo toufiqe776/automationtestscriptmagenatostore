@@ -42,6 +42,9 @@ public class NewAccountPage {
     
     @FindBy(xpath="//div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']")
     WebElement existEmailErrorMessage;
+    
+    @FindBy(xpath="//div[@id='email_address-error']")
+    WebElement emailFromatErrorMessage;
     // Actions
 
     // Enter first name 
@@ -86,6 +89,10 @@ public class NewAccountPage {
     //get exist Email Error message 
     public String getExistEmailErrorMessage() {
     	return existEmailErrorMessage.getText();
+    }
+    //get invalid email format error message
+    public String getInvalidEmailFormatErrorMessage() {
+    	return emailFromatErrorMessage.getText().trim();
     }
     
     

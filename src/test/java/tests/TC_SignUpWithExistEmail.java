@@ -38,6 +38,8 @@ public class TC_SignUpWithExistEmail extends BaseClass {
        
        String expectedErrorMessage="There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account.";
        Assert.assertEquals(actualErrorMessage, expectedErrorMessage);
+       logger.info("*** Test Case: Sign-up with exsit email completed successfully ***");
+       
 	}
 
 }
