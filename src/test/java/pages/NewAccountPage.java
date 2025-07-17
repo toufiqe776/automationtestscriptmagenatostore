@@ -1,0 +1,76 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+/**
+ * Page Object for the "Create New Account" page
+ */
+public class NewAccountPage {
+    WebDriver driver;
+
+    // Constructor
+    public NewAccountPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
+    // Web Elements
+
+    @FindBy(id = "firstname")
+    private WebElement firstName;
+
+    @FindBy(id = "lastname")
+    private WebElement lastName;
+
+    @FindBy(id = "email_address")
+    private WebElement email;
+
+    @FindBy(id = "password")
+    private WebElement password;
+
+    @FindBy(id = "password-confirmation")
+    private WebElement confirmPassword;
+
+    @FindBy(xpath = "//button[@title='Create an Account']//span[contains(text(),'Create an Account')]")
+    private WebElement createAccountButton;
+
+    // Actions
+
+    /** Enter first name */
+    public void enterFirstName(String fname) {
+        firstName.clear();
+        firstName.sendKeys(fname);
+    }
+
+    /** Enter last name */
+    public void enterLastName(String lname) {
+        lastName.clear();
+        lastName.sendKeys(lname);
+    }
+
+    /** Enter email address */
+    public void enterEmail(String emailAddress) {
+        email.clear();
+        email.sendKeys(emailAddress);
+    }
+
+    /** Enter password */
+    public void enterPassword(String pwd) {
+        password.clear();
+        password.sendKeys(pwd);
+    }
+
+    /** Enter confirm password */
+    public void enterConfirmPassword(String confirmPwd) {
+        confirmPassword.clear();
+        confirmPassword.sendKeys(confirmPwd);
+    }
+
+    /** Click on "Create an Account" button */
+    public void clickOnCreateAccount() {
+        createAccountButton.click();
+    }
+}

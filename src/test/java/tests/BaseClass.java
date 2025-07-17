@@ -16,7 +16,7 @@ import org.testng.annotations.*;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import pages.indexPage;
+import pages.IndexPage;
 import utils.ReadConfig;
 
 
@@ -28,9 +28,6 @@ public class BaseClass {
 
 	String url = readConfig.getBaseUrl();
 	String browser = readConfig.getBrowser();
-
-	
-	
 	
 	public static WebDriver driver;
 	public static Logger logger;
@@ -78,14 +75,14 @@ public class BaseClass {
 
 
 
-	@AfterClass
-	public void tearDown()
-	{
-		driver.close();
-		driver.quit();
-	}
-
-	
+//	@AfterClass
+//	public void tearDown()
+//	{
+//		driver.close();
+//		driver.quit();
+//	}
+//
+//	
 	//user method to capture screen shot
 	public void captureScreenShot(WebDriver driver,String testName) throws IOException
 	{
