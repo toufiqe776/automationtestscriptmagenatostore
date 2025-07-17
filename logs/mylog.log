@@ -107,3 +107,10 @@
 [ERROR] 2025-07-18 04:18:26.267 [main] Magenato Store - VerifyLoginInvalidEmailAndInvalidPassword - Failed
 [ERROR] 2025-07-18 04:18:26.267 [main] Magenato Store - Expected: Th account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
 [ERROR] 2025-07-18 04:18:26.267 [main] Magenato Store - Actual: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2025-07-18 04:27:56.263 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 04:27:56.277 [main] Magenato Store - Verify login with Unregister Email
+[INFO ] 2025-07-18 04:27:57.544 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 04:27:57.735 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 04:27:57.811 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 04:28:02.072 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 04:28:02.094 [main] Magenato Store - VerifyWithUnregisterEmail - Passed
