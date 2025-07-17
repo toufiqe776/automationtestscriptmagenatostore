@@ -85,3 +85,25 @@
 [INFO ] 2025-07-18 04:08:30.588 [main] Magenato Store - Entered Password   
 [INFO ] 2025-07-18 04:08:30.644 [main] Magenato Store - Clicked on SignIn
 [INFO ] 2025-07-18 04:08:30.673 [main] Magenato Store - verifyLoginWithInvalidEmailAndValidPassword - Passed
+[INFO ] 2025-07-18 04:17:12.387 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 04:17:12.412 [main] Magenato Store - Verify login with Invalid Email and Invalid password 
+[INFO ] 2025-07-18 04:17:13.596 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 04:17:13.796 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 04:17:13.870 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 04:17:13.937 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 04:18:00.840 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 04:18:00.865 [main] Magenato Store - Verify login with Invalid Email and Invalid password 
+[INFO ] 2025-07-18 04:18:02.641 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 04:18:02.762 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 04:18:02.842 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 04:18:04.777 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 04:18:04.802 [main] Magenato Store - VerifyLoginInvalidEmailAndInvalidPassword - Passed
+[INFO ] 2025-07-18 04:18:21.107 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 04:18:21.119 [main] Magenato Store - Verify login with Invalid Email and Invalid password 
+[INFO ] 2025-07-18 04:18:23.820 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 04:18:23.921 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 04:18:24.038 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 04:18:26.245 [main] Magenato Store - Clicked on SignIn
+[ERROR] 2025-07-18 04:18:26.267 [main] Magenato Store - VerifyLoginInvalidEmailAndInvalidPassword - Failed
+[ERROR] 2025-07-18 04:18:26.267 [main] Magenato Store - Expected: Th account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[ERROR] 2025-07-18 04:18:26.267 [main] Magenato Store - Actual: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
