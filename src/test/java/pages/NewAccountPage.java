@@ -39,6 +39,9 @@ public class NewAccountPage {
     
     @FindBy(xpath="//div[@id='firstname-error']")
     private WebElement  errorMessage;
+    
+    @FindBy(xpath="//div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']")
+    WebElement existEmailErrorMessage;
     // Actions
 
     // Enter first name 
@@ -79,6 +82,10 @@ public class NewAccountPage {
     //get error message 
     public String getErrorMessage() {
     	return errorMessage.getText();
+    }
+    //get exist Email Error message 
+    public String getExistEmailErrorMessage() {
+    	return existEmailErrorMessage.getText();
     }
     
     
