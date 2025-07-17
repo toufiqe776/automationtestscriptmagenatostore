@@ -26,6 +26,9 @@ public class LoginPage {
 	    
 	    @FindBy(xpath="//div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']")
 	    WebElement errorMessage;
+	    
+	    @FindBy(xpath="//div[@id='email-error']")
+	    WebElement errorMessageValidPassword;
 	    //action 
 	    //enter email 
 	    public void enterEmail(String email) {
@@ -45,6 +48,10 @@ public class LoginPage {
 	    //get error message when enter invalid password 
 	    public String getErrorMessage() {
 	    	return errorMessage.getText().trim();
+	    }
+	    //get error message enter valid password 
+	    public String getErrorMessageValidPassword() {
+	    	return errorMessageValidPassword.getText().trim();
 	    }
 	    
 
