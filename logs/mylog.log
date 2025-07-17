@@ -1,0 +1,22 @@
+[INFO ] 2025-07-18 02:49:33.179 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 02:49:33.198 [main] Magenato Store - *** Test Case: Sign Up With mismatched password  ***
+[INFO ] 2025-07-18 02:49:33.322 [main] Magenato Store - Clicked on 'Create an Account'
+[INFO ] 2025-07-18 02:49:36.783 [main] Magenato Store - Entered First Name
+[INFO ] 2025-07-18 02:49:36.864 [main] Magenato Store - Entered Last Name
+[INFO ] 2025-07-18 02:49:36.997 [main] Magenato Store - Entered Invalid Email
+[INFO ] 2025-07-18 02:49:37.111 [main] Magenato Store - Entered Password
+[INFO ] 2025-07-18 02:49:37.308 [main] Magenato Store - Entered Confirm Password
+[INFO ] 2025-07-18 02:49:37.421 [main] Magenato Store - Clicked on 'Create Account'
+[INFO ] 2025-07-18 02:49:37.468 [main] Magenato Store - signUpWithMismatchedPassword - Passed
+[INFO ] 2025-07-18 02:49:59.997 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 02:50:00.011 [main] Magenato Store - *** Test Case: Sign Up With mismatched password  ***
+[INFO ] 2025-07-18 02:50:02.330 [main] Magenato Store - Clicked on 'Create an Account'
+[INFO ] 2025-07-18 02:50:02.553 [main] Magenato Store - Entered First Name
+[INFO ] 2025-07-18 02:50:02.677 [main] Magenato Store - Entered Last Name
+[INFO ] 2025-07-18 02:50:02.778 [main] Magenato Store - Entered Invalid Email
+[INFO ] 2025-07-18 02:50:02.945 [main] Magenato Store - Entered Password
+[INFO ] 2025-07-18 02:50:03.088 [main] Magenato Store - Entered Confirm Password
+[INFO ] 2025-07-18 02:50:03.221 [main] Magenato Store - Clicked on 'Create Account'
+[ERROR] 2025-07-18 02:50:03.259 [main] Magenato Store - signUpWithMismatchedPassword - Failed
+[ERROR] 2025-07-18 02:50:03.259 [main] Magenato Store - Expected: Please enter the same value agai
+[ERROR] 2025-07-18 02:50:03.260 [main] Magenato Store - Actual: Please enter the same value again.

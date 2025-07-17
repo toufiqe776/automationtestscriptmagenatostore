@@ -45,6 +45,9 @@ public class NewAccountPage {
     
     @FindBy(xpath="//div[@id='email_address-error']")
     WebElement emailFromatErrorMessage;
+    
+    @FindBy(xpath="//div[@id='password-confirmation-error']")
+    WebElement errorMessagePasswordMismatched;
     // Actions
 
     // Enter first name 
@@ -93,6 +96,11 @@ public class NewAccountPage {
     //get invalid email format error message
     public String getInvalidEmailFormatErrorMessage() {
     	return emailFromatErrorMessage.getText().trim();
+    }
+    
+    //get error message when password mismatched 
+    public String getErrorMessagePasswordMismatched() {
+    	return errorMessagePasswordMismatched.getText().trim();
     }
     
     
