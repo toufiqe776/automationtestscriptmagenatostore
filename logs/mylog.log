@@ -20,3 +20,45 @@
 [ERROR] 2025-07-18 02:50:03.259 [main] Magenato Store - signUpWithMismatchedPassword - Failed
 [ERROR] 2025-07-18 02:50:03.259 [main] Magenato Store - Expected: Please enter the same value agai
 [ERROR] 2025-07-18 02:50:03.260 [main] Magenato Store - Actual: Please enter the same value again.
+[INFO ] 2025-07-18 03:02:21.657 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 03:02:21.672 [main] Magenato Store - Verify login with valid credentials 
+[INFO ] 2025-07-18 03:02:22.902 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 03:11:44.288 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 03:11:44.303 [main] Magenato Store - Verify login with valid credentials 
+[INFO ] 2025-07-18 03:11:47.011 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 03:11:47.235 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 03:11:47.345 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 03:11:50.151 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 03:22:19.030 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 03:22:19.046 [main] Magenato Store - Verify login with valid credentials 
+[INFO ] 2025-07-18 03:22:20.320 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 03:22:20.526 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 03:22:20.614 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 03:22:23.939 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 03:22:23.968 [main] Magenato Store - LogIn - Passed
+[INFO ] 2025-07-18 03:23:03.784 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 03:23:03.796 [main] Magenato Store - Verify login with valid credentials 
+[INFO ] 2025-07-18 03:23:05.189 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 03:23:05.404 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 03:23:05.487 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 03:23:08.356 [main] Magenato Store - Clicked on SignIn
+[ERROR] 2025-07-18 03:23:08.385 [main] Magenato Store - Login - Failed
+[ERROR] 2025-07-18 03:23:08.385 [main] Magenato Store - Expected: Home Pag
+[ERROR] 2025-07-18 03:23:08.385 [main] Magenato Store - Actual: Home Page
+[INFO ] 2025-07-18 03:29:14.356 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 03:29:14.379 [main] Magenato Store - *** Test Case: Sign-up with Exist email started ***
+[INFO ] 2025-07-18 03:29:15.421 [main] Magenato Store - Clicked on 'Create an Account'
+[INFO ] 2025-07-18 03:29:15.540 [main] Magenato Store - Entered first name
+[INFO ] 2025-07-18 03:29:15.712 [main] Magenato Store - Entered last name
+[INFO ] 2025-07-18 03:29:15.851 [main] Magenato Store - Entered email
+[INFO ] 2025-07-18 03:29:15.989 [main] Magenato Store - Entered password
+[INFO ] 2025-07-18 03:29:16.116 [main] Magenato Store - Entered confirm password
+[INFO ] 2025-07-18 03:29:18.415 [main] Magenato Store - Clicked on 'Create Account'
+[INFO ] 2025-07-18 03:29:18.440 [main] Magenato Store - *** Test Case: Sign-up with exsit email completed successfully ***
+[INFO ] 2025-07-18 03:29:22.285 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 03:29:22.287 [main] Magenato Store - Verify login with valid credentials 
+[INFO ] 2025-07-18 03:29:25.008 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 03:29:25.252 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 03:29:25.342 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 03:29:28.155 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 03:29:28.184 [main] Magenato Store - LogIn - Passed

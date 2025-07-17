@@ -15,12 +15,23 @@ public class IndexPage {
 	        this.driver = driver;
 	        PageFactory.initElements(driver, this);
 	    }
-        //find create account web element 
+	    // Web Elements
 	    @FindBy(xpath="//div[@class='panel header']//a[normalize-space()='Create an Account']")
 	    WebElement createAccountElement;
 	    
+	    @FindBy(xpath="//div[@class='panel header']//a[contains(text(),'Sign In')]")
+	    WebElement signIn;
+	    //action 
 	    //click on create account for new account 
 	    public void clickOnCreateAccount() {
 	    	createAccountElement.click();
 	    }
+	    
+	    //click on sign in 
+	    public void clickOnSignIn()
+	    {
+	    	signIn.click();
+	    }
+	    
+	    
 }

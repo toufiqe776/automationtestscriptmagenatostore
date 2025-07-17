@@ -47,7 +47,7 @@ public class TC_SignUpWithMismatchedPassword extends BaseClass {
             logger.error("Expected: " + expectedErrorMsg);
             logger.error("Actual: " + actualErrorMsg);
             captureScreenShot(driver, "signUpWithInvalidEmailFormat");
-            Assert.fail("Email format validation failed.");
+            Assert.fail("Password mismatched  validation failed.");
         }
 		
 	}
