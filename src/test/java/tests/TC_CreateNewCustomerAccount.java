@@ -8,7 +8,7 @@ import pages.AccountPage;
 import pages.NewAccountPage;
 import pages.IndexPage;
 
-public class CreateNewCustomerAccount extends BaseClass {
+public class TC_CreateNewCustomerAccount extends BaseClass {
 
     @Test
     public void createNewCustomerAccountWithAllRequiredFields() throws IOException {
@@ -34,7 +34,7 @@ public class CreateNewCustomerAccount extends BaseClass {
         newAccountPage.enterConfirmPassword("Admin@123");
         logger.info("Entered confirm password");
 
-        newAccountPage.clickOnCreateAccount();
+        newAccountPage.clickOnCreateAccountButton();
         logger.info("Clicked on 'Create Account'");
 
         AccountPage accountPage = new AccountPage(driver);
@@ -45,4 +45,6 @@ public class CreateNewCustomerAccount extends BaseClass {
         Assert.assertEquals(actualText, expectedText, "FAIL: 'My Account' heading does not match!");
         logger.info("*** Test Case: Sign-up completed successfully ***");
     }
+    
+    
 }

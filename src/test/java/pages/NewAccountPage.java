@@ -36,16 +36,18 @@ public class NewAccountPage {
 
     @FindBy(xpath = "//button[@title='Create an Account']//span[contains(text(),'Create an Account')]")
     private WebElement createAccountButton;
-
+    
+    @FindBy(xpath="//div[@id='firstname-error']")
+    private WebElement  errorMessage;
     // Actions
 
-    /** Enter first name */
+    // Enter first name 
     public void enterFirstName(String fname) {
         firstName.clear();
         firstName.sendKeys(fname);
     }
 
-    /** Enter last name */
+    // Enter last name 
     public void enterLastName(String lname) {
         lastName.clear();
         lastName.sendKeys(lname);
@@ -70,7 +72,14 @@ public class NewAccountPage {
     }
 
     /** Click on "Create an Account" button */
-    public void clickOnCreateAccount() {
+    public void clickOnCreateAccountButton() {
         createAccountButton.click();
     }
+    
+    //get error message 
+    public String getErrorMessage() {
+    	return errorMessage.getText();
+    }
+    
+    
 }

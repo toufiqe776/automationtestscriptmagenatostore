@@ -75,14 +75,14 @@ public class BaseClass {
 
 
 
-//	@AfterClass
-//	public void tearDown()
-//	{
-//		driver.close();
-//		driver.quit();
-//	}
-//
-//	
+	@AfterClass
+	public void tearDown()
+	{
+		driver.close();
+		driver.quit();
+	}
+
+	
 	//user method to capture screen shot
 	public void captureScreenShot(WebDriver driver,String testName) throws IOException
 	{
