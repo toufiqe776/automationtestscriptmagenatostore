@@ -24,6 +24,9 @@ public class LoginPage {
 	    @FindBy(xpath="//fieldset[@class='fieldset login']//span[contains(text(),'Sign In')]")
 	    WebElement signInBtn;
 	    
+	    @FindBy(xpath="//div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']")
+	    WebElement errorMessage;
+	    //action 
 	    //enter email 
 	    public void enterEmail(String email) {
 	    	emailElement.clear();
@@ -38,6 +41,10 @@ public class LoginPage {
 	    //click on sign in btn 
 	    public void clickOnSignIn() {
 	    	signInBtn.click();
+	    }
+	    //get error message when enter invalid password 
+	    public String getErrorMessage() {
+	    	return errorMessage.getText().trim();
 	    }
 	    
 

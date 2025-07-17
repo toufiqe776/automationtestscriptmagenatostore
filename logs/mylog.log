@@ -62,3 +62,19 @@
 [INFO ] 2025-07-18 03:29:25.342 [main] Magenato Store - Entered Password   
 [INFO ] 2025-07-18 03:29:28.155 [main] Magenato Store - Clicked on SignIn
 [INFO ] 2025-07-18 03:29:28.184 [main] Magenato Store - LogIn - Passed
+[INFO ] 2025-07-18 03:52:40.563 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 03:52:40.578 [main] Magenato Store - Verify login with valid Email and Invalid password 
+[INFO ] 2025-07-18 03:52:41.927 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 03:52:42.158 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 03:52:42.236 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 03:52:44.125 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 03:52:44.148 [main] Magenato Store - loginWithValidEmailAndInvalidPassword - Passed
+[INFO ] 2025-07-18 03:54:28.575 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 03:54:28.592 [main] Magenato Store - Verify login with valid Email and Invalid password 
+[INFO ] 2025-07-18 03:54:30.022 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 03:54:30.324 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 03:54:30.422 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 03:54:30.493 [main] Magenato Store - Clicked on SignIn
+[ERROR] 2025-07-18 03:54:34.675 [main] Magenato Store - loginWithValidEmailAndInvalidPassword - Failed
+[ERROR] 2025-07-18 03:54:34.675 [main] Magenato Store - Expected: account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[ERROR] 2025-07-18 03:54:34.675 [main] Magenato Store - Actual: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
