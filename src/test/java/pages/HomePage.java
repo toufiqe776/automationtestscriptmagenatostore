@@ -17,10 +17,24 @@ public class HomePage {
 	    @FindBy(xpath="//span[@class='base']")
 	    WebElement homePageHeadingElement;
 	    
+	    @FindBy(xpath="//div[@class='panel header']//button[@type='button']")
+	    WebElement arrowIconElement;
+	    
+	    @FindBy(xpath="//div[@aria-hidden='false']//a[normalize-space()='Sign Out']")
+	    WebElement logoutElement;
+	    
 	    //Action 
 	    // get home page heading 
 	    public String getHomePageHeading() {
 	    	return homePageHeadingElement.getText().trim();
+	    }
+	    
+	    //clcik on arrow icon 
+	    public void clikOnArrowIcon() {
+	    	arrowIconElement.click();
+	    }
+	    public void ClickOnLogoutBtn() {
+	    	logoutElement.click();
 	    }
 
 }

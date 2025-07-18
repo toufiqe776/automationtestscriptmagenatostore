@@ -12,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
 
@@ -31,6 +32,7 @@ public class BaseClass {
 	
 	public static WebDriver driver;
 	public static Logger logger;
+	public static WebDriverWait wait;
 
 	@BeforeClass
 	public void setup()
@@ -62,7 +64,8 @@ public class BaseClass {
 
 		//implicit wait of 10 secs
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
+		//explicit wait 
+		wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
 		//for logging
 		logger = LogManager.getLogger("Magenato Store");

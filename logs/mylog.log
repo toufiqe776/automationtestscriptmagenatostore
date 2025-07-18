@@ -114,3 +114,58 @@
 [INFO ] 2025-07-18 04:27:57.811 [main] Magenato Store - Entered Password   
 [INFO ] 2025-07-18 04:28:02.072 [main] Magenato Store - Clicked on SignIn
 [INFO ] 2025-07-18 04:28:02.094 [main] Magenato Store - VerifyWithUnregisterEmail - Passed
+[INFO ] 2025-07-18 04:36:31.911 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 04:36:31.927 [main] Magenato Store - Verify login with blank Email and password
+[INFO ] 2025-07-18 04:36:34.534 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 04:36:34.733 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 04:36:34.854 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 04:36:34.942 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 04:36:34.977 [main] Magenato Store - VerifyLoginWithBlankEmailAndPassword - Passed
+[INFO ] 2025-07-18 04:53:23.841 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 04:53:23.855 [main] Magenato Store - Verify login with  Email field invalid format
+[INFO ] 2025-07-18 04:53:24.953 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 04:53:25.169 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 04:53:25.262 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 04:53:25.324 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 04:53:25.392 [main] Magenato Store - VerifyLogEmailFiledInvalidFormat - Passed
+[INFO ] 2025-07-18 05:04:51.236 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 05:04:51.256 [main] Magenato Store - Verify Sign out  After login 
+[INFO ] 2025-07-18 05:04:53.838 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 05:04:54.072 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 05:04:54.184 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 05:04:57.610 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 05:04:57.657 [main] Magenato Store - Clicked on Arrow icon 
+[INFO ] 2025-07-18 05:05:00.353 [main] Magenato Store - Clicked on Sign out
+[INFO ] 2025-07-18 05:05:42.154 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 05:05:42.175 [main] Magenato Store - Verify Sign out  After login 
+[INFO ] 2025-07-18 05:05:44.917 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 05:05:45.118 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 05:05:45.204 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 05:05:45.257 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 05:05:47.366 [main] Magenato Store - Clicked on Arrow icon 
+[INFO ] 2025-07-18 05:05:47.576 [main] Magenato Store - Clicked on Sign out
+[INFO ] 2025-07-18 05:06:12.888 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 05:06:12.904 [main] Magenato Store - Verify Sign out  After login 
+[INFO ] 2025-07-18 05:06:14.213 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 05:06:14.450 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 05:06:14.535 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 05:06:16.768 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 05:06:16.880 [main] Magenato Store - Clicked on Arrow icon 
+[INFO ] 2025-07-18 05:06:19.098 [main] Magenato Store - Clicked on Sign out
+[INFO ] 2025-07-18 05:18:10.938 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 05:18:10.953 [main] Magenato Store - Verify Sign out  After login 
+[INFO ] 2025-07-18 05:18:13.506 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 05:18:13.689 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 05:18:13.798 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 05:18:17.387 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 05:18:17.445 [main] Magenato Store - Clicked on Arrow icon 
+[INFO ] 2025-07-18 05:18:17.564 [main] Magenato Store - Clicked on Sign out
+[INFO ] 2025-07-18 05:32:13.402 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 05:32:13.423 [main] Magenato Store - Verify Sign out  After login 
+[INFO ] 2025-07-18 05:32:15.412 [main] Magenato Store - Clicked on signin 
+[INFO ] 2025-07-18 05:32:15.752 [main] Magenato Store - Entered Email  
+[INFO ] 2025-07-18 05:32:15.886 [main] Magenato Store - Entered Password   
+[INFO ] 2025-07-18 05:32:18.597 [main] Magenato Store - Clicked on SignIn
+[INFO ] 2025-07-18 05:32:18.714 [main] Magenato Store - Clicked on Arrow icon 
+[INFO ] 2025-07-18 05:32:18.900 [main] Magenato Store - Clicked on Sign out
+[INFO ] 2025-07-18 05:32:21.658 [main] Magenato Store - Signout - Passed
