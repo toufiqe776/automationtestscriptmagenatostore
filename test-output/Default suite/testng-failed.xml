@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TC_VerifySignoutAfterLogin">
+      <class name="tests.TC_VerifySignOutButtonVisibility">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="VerifySignoutAfterLogin"/>
+          <include name="verifySignOutButtonVisibility"/>
         </methods>
-      </class> <!-- tests.TC_VerifySignoutAfterLogin -->
+      </class> <!-- tests.TC_VerifySignOutButtonVisibility -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -27,9 +27,9 @@ public class TC_VerifySignoutAfterLogin extends BaseClass {
 		
 		logger.info("Clicked on SignIn");
 		HomePage homepage=new HomePage(driver);
-		homepage.clikOnArrowIcon();
+		homepage.clickOnArrowIcon();
 		logger.info("Clicked on Arrow icon ");
-		homepage.ClickOnLogoutBtn();
+		homepage.clickOnLogoutBtn();
 		logger.info("Clicked on Sign out");
 		SignoutPage signoutpage=new SignoutPage(driver);
 		String actualHeading=signoutpage.getHeadingMessage();
