@@ -8,6 +8,23 @@
     <classes>
       <class name="tests.TC_SignUpWithExistEmail"/>
        <class name="tests.TC_VerifyLogin"/>
+       <class name="tests.TC_ChangePasswordWithValidData"/>
+       <class name="tests.TC_CreateAccountWithEmptyFields"/>
+        <class name="tests.TC_CreateNewCustomerAccount"/>
+          <class name="tests.TC_LoginWithValidEmailAndInvalidPassword"/>
+          <class name="tests.TC_SignUpWithExistEmail"/>
+           <class name="tests.TC_SignUpWithInvalidEmailFormat"/>
+            <class name="tests.TC_SignUpWithMismatchedPassword"/>
+             <class name="tests.TC_VerifyLoginEmailFiledInvalidFormat"/>
+            <class name="tests.TC_VerifyLoginInvalidEmailAndInvalidPassword"/>
+             <class name="tests.TC_VerifyLoginInvalidEmailAndValidPassword"/>
+            <class name="tests.TC_VerifyLoginWithBlankEmailAndPassword"/>
+            <class name="tests.TC_VerifyLoginWithUnregisterEmail"/>
+          <class name="tests.TC_VerifySignOutAcrossMultipleTabs"/>
+         <class name="tests.TC_VerifySignOutButtonVisibility"/>
+                 
+             
+       
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
