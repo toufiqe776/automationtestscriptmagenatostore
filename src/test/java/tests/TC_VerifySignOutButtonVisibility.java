@@ -27,7 +27,7 @@ public class TC_VerifySignOutButtonVisibility extends BaseClass {
 
         // Step 3: Open user menu
         HomePage homePage = new HomePage(driver);
-        homePage.clickOnArrowIcon();  // Make sure this reveals the Sign Out button
+        homePage.clickOnArrowIcon();  
 
         // Step 4: Assert Sign Out button visibility
         boolean isVisible = homePage.isSignOutButtonVisible();

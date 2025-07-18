@@ -216,3 +216,45 @@
 [INFO ] 2025-07-18 11:31:05.238 [main] Magenato Store - url opened
 [INFO ] 2025-07-18 11:31:05.277 [main] Magenato Store - Test: Verify Sign Out button visibility started
 [INFO ] 2025-07-18 11:31:08.978 [main] Magenato Store - Logged in successfully
+[INFO ] 2025-07-18 15:41:33.097 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 15:41:33.115 [main] Magenato Store - Starting test: Change password with valid current and new passwords
+[INFO ] 2025-07-18 15:41:37.490 [main] Magenato Store - Logged in successfully
+[INFO ] 2025-07-18 15:42:26.109 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 15:42:26.120 [main] Magenato Store - Starting test: Change password with valid current and new passwords
+[INFO ] 2025-07-18 15:42:34.670 [main] Magenato Store - Logged in successfully
+[INFO ] 2025-07-18 15:42:34.973 [main] Magenato Store - clcik on  arrow icon button 
+[INFO ] 2025-07-18 15:42:35.137 [main] Magenato Store - clcik on  my account 
+[INFO ] 2025-07-18 15:42:41.233 [main] Magenato Store - clcik on change password 
+[INFO ] 2025-07-18 15:42:41.445 [main] Magenato Store - enter current password 
+[INFO ] 2025-07-18 15:42:41.593 [main] Magenato Store - enter new password 
+[INFO ] 2025-07-18 15:42:41.664 [main] Magenato Store - enter confirm new  password 
+[INFO ] 2025-07-18 15:43:19.152 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 15:43:19.166 [main] Magenato Store - Starting test: Change password with valid current and new passwords
+[INFO ] 2025-07-18 15:43:21.655 [main] Magenato Store - Logged in successfully
+[INFO ] 2025-07-18 15:43:24.561 [main] Magenato Store - clcik on  arrow icon button 
+[INFO ] 2025-07-18 15:43:24.722 [main] Magenato Store - clcik on  my account 
+[INFO ] 2025-07-18 15:43:31.687 [main] Magenato Store - clcik on change password 
+[INFO ] 2025-07-18 15:43:31.930 [main] Magenato Store - enter current password 
+[INFO ] 2025-07-18 15:43:32.043 [main] Magenato Store - enter new password 
+[INFO ] 2025-07-18 15:43:32.148 [main] Magenato Store - enter confirm new  password 
+[INFO ] 2025-07-18 15:43:44.214 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 15:43:44.225 [main] Magenato Store - Starting test: Change password with valid current and new passwords
+[INFO ] 2025-07-18 15:43:46.779 [main] Magenato Store - Logged in successfully
+[INFO ] 2025-07-18 15:43:53.965 [main] Magenato Store - clcik on  arrow icon button 
+[INFO ] 2025-07-18 15:43:54.126 [main] Magenato Store - clcik on  my account 
+[INFO ] 2025-07-18 15:44:01.997 [main] Magenato Store - clcik on change password 
+[INFO ] 2025-07-18 15:44:02.236 [main] Magenato Store - enter current password 
+[INFO ] 2025-07-18 15:44:02.399 [main] Magenato Store - enter new password 
+[INFO ] 2025-07-18 15:44:02.502 [main] Magenato Store - enter confirm new  password 
+[INFO ] 2025-07-18 15:53:09.060 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 15:53:09.077 [main] Magenato Store - Starting test: Change password with valid current and new passwords
+[INFO ] 2025-07-18 15:53:16.209 [main] Magenato Store - Logged in successfully
+[INFO ] 2025-07-18 15:53:54.469 [main] Magenato Store - url opened
+[INFO ] 2025-07-18 15:53:54.480 [main] Magenato Store - Starting test: Change password with valid current and new passwords
+[INFO ] 2025-07-18 15:54:01.500 [main] Magenato Store - Logged in successfully
+[INFO ] 2025-07-18 15:54:01.600 [main] Magenato Store - clcik on  arrow icon button 
+[INFO ] 2025-07-18 15:54:01.748 [main] Magenato Store - clcik on  my account 
+[INFO ] 2025-07-18 15:54:16.475 [main] Magenato Store - clcik on change password 
+[INFO ] 2025-07-18 15:54:16.599 [main] Magenato Store - enter current password 
+[INFO ] 2025-07-18 15:54:16.811 [main] Magenato Store - enter new password 
+[INFO ] 2025-07-18 15:54:16.884 [main] Magenato Store - enter confirm new  password 

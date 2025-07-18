@@ -28,6 +28,9 @@ public class HomePage {
 
     @FindBy(xpath = "//div[@aria-hidden='false']//a[normalize-space()='Sign Out']")
     WebElement logoutElement;
+    
+    @FindBy(xpath="//div[@aria-hidden='false']//a[normalize-space()='My Account']")
+    WebElement myAccountElement;
 
     // Actions
 
@@ -54,5 +57,10 @@ public class HomePage {
         } catch (Exception e) {
             return false;
         }
+    }
+    //click on my account 
+    public void clickOnMyAccount() {
+    	myAccountElement.click();
+    	
     }
 }

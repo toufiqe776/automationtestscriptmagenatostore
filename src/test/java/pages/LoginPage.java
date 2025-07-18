@@ -32,6 +32,9 @@ public class LoginPage {
 	    
 	    @FindBy(xpath="//div[@id='email-error']")
 	    WebElement errorMessageBothBlank;
+	    
+	    @FindBy(xpath="//span[@class='base']")
+	    WebElement loginPageHeading;
 	    //action 
 	    //enter email 
 	    public void enterEmail(String email) {
@@ -60,6 +63,11 @@ public class LoginPage {
 	    //get error message when errorMessageBothBlank
 	    public String getErrorMessageBothBlanks() {
 	    	return errorMessageBothBlank.getText().trim();
+	    }
+	    
+	    //get login page  heading 
+	    public String  getLoginPageHeading() {
+	    	return loginPageHeading.getText().trim();
 	    }
 	    
 

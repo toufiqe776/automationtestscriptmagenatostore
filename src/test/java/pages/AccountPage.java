@@ -17,9 +17,17 @@ public class AccountPage {
 	    @FindBy(xpath="//span[@class='base']")
 	    WebElement myAccount;
 	    
+	    @FindBy(xpath="//a[@class='action change-password']")
+	    WebElement changePasswordElement;
+	    
 	    //get my account text 
 	    public String getMyAccountText() {
 	    	return myAccount.getText();
+	    }
+	    
+	    //click on change password 
+	    public void clickOnChangePassword() {
+	    	changePasswordElement.click();
 	    }
 
 }
